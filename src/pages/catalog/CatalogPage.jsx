@@ -22,13 +22,13 @@ const CatalogPage = () => {
                                 Размер
                             </div>
                             <div className={classes.cartSizeBox}>
-                                <div data-size="S" className={classes.carSizeItem}>S</div>
-                                <div data-size="M" className={classes.carSizeItem}>M</div>
-                                <div data-size="L" className={classes.carSizeItem}>L</div>
-                                <div data-size="XL" className={classes.carSizeItem}>XL</div>
+                                <div data-size="S" className={classes.cartSizeItem}>S</div>
+                                <div data-size="M" className={classes.cartSizeItem}>M</div>
+                                <div data-size="L" className={classes.cartSizeItem}>L</div>
+                                <div data-size="XL" className={classes.cartSizeItem}>XL</div>
                             </div>
                         </div>
-                        <div className={classes.cartSizePrice}><span data-price>2590</span>р</div>
+                        <div className={classes.cartPrice}><span data-price>2590</span>р</div>
                     </div>
 
                     <button data-button className={"button button width " + classes.catalogButton}>Купить</button>
@@ -47,13 +47,13 @@ const CatalogPage = () => {
                                 Размер
                             </div>
                             <div className={classes.cartSizeBox}>
-                                <div data-size="S" className={classes.carSizeItem}>S</div>
-                                <div data-size="M" className={classes.carSizeItem}>M</div>
-                                <div data-size="L" className={classes.carSizeItem}>L</div>
-                                <div data-size="XL" className={classes.carSizeItem}>XL</div>
+                                <div data-size="S" className={classes.cartSizeItem}>S</div>
+                                <div data-size="M" className={classes.cartSizeItem}>M</div>
+                                <div data-size="L" className={classes.cartSizeItem}>L</div>
+                                <div data-size="XL" className={classes.cartSizeItem}>XL</div>
                             </div>
                         </div>
-                        <div className={classes.cartSizePrice}><span data-price>2190</span>р</div>
+                        <div className={classes.cartPrice}><span data-price>2190</span>р</div>
                     </div>
 
                     <button data-button className={"button button width " + classes.catalogButton}>Купить</button>
@@ -72,13 +72,13 @@ const CatalogPage = () => {
                                 Размер
                             </div>
                             <div className={classes.cartSizeBox}>
-                                <div data-size="S" className={classes.carSizeItem}>S</div>
-                                <div data-size="M" className={classes.carSizeItem}>M</div>
-                                <div data-size="L" className={classes.carSizeItem}>L</div>
-                                <div data-size="XL" className={classes.carSizeItem}>XL</div>
+                                <div data-size="S" className={classes.cartSizeItem}>S</div>
+                                <div data-size="M" className={classes.cartSizeItem}>M</div>
+                                <div data-size="L" className={classes.cartSizeItem}>L</div>
+                                <div data-size="XL" className={classes.cartSizeItem}>XL</div>
                             </div>
                         </div>
-                        <div className={classes.cartSizePrice}><span data-price>2190</span>р</div>
+                        <div className={classes.cartPrice}><span data-price>2190</span>р</div>
                     </div>
 
                     <button data-button className={"button button width " + classes.catalogButton}>Купить</button>
@@ -97,13 +97,13 @@ const CatalogPage = () => {
                                 Размер
                             </div>
                             <div className={classes.cartSizeBox}>
-                                <div data-size="S" className={classes.carSizeItem}>S</div>
-                                <div data-size="M" className={classes.carSizeItem}>M</div>
-                                <div data-size="L" className={classes.carSizeItem}>L</div>
-                                <div data-size="XL" className={classes.carSizeItem}>XL</div>
+                                <div data-size="S" className={classes.cartSizeItem}>S</div>
+                                <div data-size="M" className={classes.cartSizeItem}>M</div>
+                                <div data-size="L" className={classes.cartSizeItem}>L</div>
+                                <div data-size="XL" className={classes.cartSizeItem}>XL</div>
                             </div>
                         </div>
-                        <div className={classes.cartSizePrice}><span data-price>2200</span>р</div>
+                        <div className={classes.cartPrice}><span data-price>2200</span>р</div>
                     </div>
 
                     <button data-button className={"button button width " + classes.catalogButton}>Купить</button>
@@ -122,13 +122,13 @@ const CatalogPage = () => {
                                 Размер
                             </div>
                             <div className={classes.cartSizeBox}>
-                                <div data-size="S" className={classes.carSizeItem}>S</div>
-                                <div data-size="M" className={classes.carSizeItem}>M</div>
-                                <div data-size="L" className={classes.carSizeItem}>L</div>
-                                <div data-size="XL" className={classes.carSizeItem}>XL</div>
+                                <div data-size="S" className={classes.cartSizeItem}>S</div>
+                                <div data-size="M" className={classes.cartSizeItem}>M</div>
+                                <div data-size="L" className={classes.cartSizeItem}>L</div>
+                                <div data-size="XL" className={classes.cartSizeItem}>XL</div>
                             </div>
                         </div>
-                        <div className={classes.cartSizePrice}><span data-price>4890</span>р</div>
+                        <div className={classes.cartPrice}><span data-price>4890</span>р</div>
                     </div>
 
                     <button data-button className={"button button width " + classes.catalogButton}>Купить</button>
@@ -147,13 +147,13 @@ const CatalogPage = () => {
                                 Размер
                             </div>
                             <div className={classes.cartSizeBox}>
-                                <div data-size="S" className={classes.carSizeItem}>S</div>
-                                <div data-size="M" className={classes.carSizeItem}>M</div>
-                                <div data-size="L" className={classes.carSizeItem}>L</div>
-                                <div data-size="XL" className={classes.carSizeItem}>XL</div>
+                                <div data-size="S" className={classes.cartSizeItem}>S</div>
+                                <div data-size="M" className={classes.cartSizeItem}>M</div>
+                                <div data-size="L" className={classes.cartSizeItem}>L</div>
+                                <div data-size="XL" className={classes.cartSizeItem}>XL</div>
                             </div>
                         </div>
-                        <div className={classes.cartSizePrice}><span data-price>7990</span>р</div>
+                        <div className={classes.cartPrice}><span data-price>7990</span>р</div>
                     </div>
 
                     <button data-button className={"button button width " + classes.catalogButton}>Купить</button>
@@ -172,13 +172,13 @@ const CatalogPage = () => {
                                 Размер
                             </div>
                             <div className={classes.cartSizeBox}>
-                                <div data-size="S" className={classes.carSizeItem}>S</div>
-                                <div data-size="M" className={classes.carSizeItem}>M</div>
-                                <div data-size="L" className={classes.carSizeItem}>L</div>
-                                <div data-size="XL" className={classes.carSizeItem}>XL</div>
+                                <div data-size="S" className={classes.cartSizeItem}>S</div>
+                                <div data-size="M" className={classes.cartSizeItem}>M</div>
+                                <div data-size="L" className={classes.cartSizeItem}>L</div>
+                                <div data-size="XL" className={classes.cartSizeItem}>XL</div>
                             </div>
                         </div>
-                        <div className={classes.cartSizePrice}><span data-price>5490</span>р</div>
+                        <div className={classes.cartPrice}><span data-price>5490</span>р</div>
                     </div>
 
                     <button data-button className={"button button width " + classes.catalogButton}>Купить</button>
@@ -197,13 +197,13 @@ const CatalogPage = () => {
                                 Размер
                             </div>
                             <div className={classes.cartSizeBox}>
-                                <div data-size="S" className={classes.carSizeItem}>S</div>
-                                <div data-size="M" className={classes.carSizeItem}>M</div>
-                                <div data-size="L" className={classes.carSizeItem}>L</div>
-                                <div data-size="XL" className={classes.carSizeItem}>XL</div>
+                                <div data-size="S" className={classes.cartSizeItem}>S</div>
+                                <div data-size="M" className={classes.cartSizeItem}>M</div>
+                                <div data-size="L" className={classes.cartSizeItem}>L</div>
+                                <div data-size="XL" className={classes.cartSizeItem}>XL</div>
                             </div>
                         </div>
-                        <div className={classes.cartSizePrice}><span data-price>4890</span>р</div>
+                        <div className={classes.cartPrice}><span data-price>4890</span>р</div>
                     </div>
 
                     <button data-button className={"button button width " + classes.catalogButton}>Купить</button>
@@ -222,13 +222,13 @@ const CatalogPage = () => {
                                 Размер
                             </div>
                             <div className={classes.cartSizeBox}>
-                                <div data-size="S" className={classes.carSizeItem}>S</div>
-                                <div data-size="M" className={classes.carSizeItem}>M</div>
-                                <div data-size="L" className={classes.carSizeItem}>L</div>
-                                <div data-size="XL" className={classes.carSizeItem}>XL</div>
+                                <div data-size="S" className={classes.cartSizeItem}>S</div>
+                                <div data-size="M" className={classes.cartSizeItem}>M</div>
+                                <div data-size="L" className={classes.cartSizeItem}>L</div>
+                                <div data-size="XL" className={classes.cartSizeItem}>XL</div>
                             </div>
                         </div>
-                        <div className={classes.cartSizePrice}><span data-price>7200</span>р</div>
+                        <div className={classes.cartPrice}><span data-price>7200</span>р</div>
                     </div>
 
                     <button data-button className={"button button width " + classes.catalogButton}>Купить</button>
@@ -247,13 +247,13 @@ const CatalogPage = () => {
                                 Размер
                             </div>
                             <div className={classes.cartSizeBox}>
-                                <div data-size="S" className={classes.carSizeItem}>S</div>
-                                <div data-size="M" className={classes.carSizeItem}>M</div>
-                                <div data-size="L" className={classes.carSizeItem}>L</div>
-                                <div data-size="XL" className={classes.carSizeItem}>XL</div>
+                                <div data-size="S" className={classes.cartSizeItem}>S</div>
+                                <div data-size="M" className={classes.cartSizeItem}>M</div>
+                                <div data-size="L" className={classes.cartSizeItem}>L</div>
+                                <div data-size="XL" className={classes.cartSizeItem}>XL</div>
                             </div>
                         </div>
-                        <div className={classes.cartSizePrice}><span data-price>7200</span>р</div>
+                        <div className={classes.cartPrice}><span data-price>7200</span>р</div>
                     </div>
 
                     <button data-button className={"button button width " + classes.catalogButton}>Купить</button>
@@ -272,13 +272,13 @@ const CatalogPage = () => {
                                 Размер
                             </div>
                             <div className={classes.cartSizeBox}>
-                                <div data-size="S" className={classes.carSizeItem}>S</div>
-                                <div data-size="M" className={classes.carSizeItem}>M</div>
-                                <div data-size="L" className={classes.carSizeItem}>L</div>
-                                <div data-size="XL" className={classes.carSizeItem}>XL</div>
+                                <div data-size="S" className={classes.cartSizeItem}>S</div>
+                                <div data-size="M" className={classes.cartSizeItem}>M</div>
+                                <div data-size="L" className={classes.cartSizeItem}>L</div>
+                                <div data-size="XL" className={classes.cartSizeItem}>XL</div>
                             </div>
                         </div>
-                        <div className={classes.cartSizePrice}><span data-price>7200</span>р</div>
+                        <div className={classes.cartPrice}><span data-price>7200</span>р</div>
                     </div>
 
                     <button data-button className={"button button width " + classes.catalogButton}>Купить</button>
@@ -297,13 +297,13 @@ const CatalogPage = () => {
                                 Размер
                             </div>
                             <div className={classes.cartSizeBox}>
-                                <div data-size="S" className={classes.carSizeItem}>S</div>
-                                <div data-size="M" className={classes.carSizeItem}>M</div>
-                                <div data-size="L" className={classes.carSizeItem}>L</div>
-                                <div data-size="XL" className={classes.carSizeItem}>XL</div>
+                                <div data-size="S" className={classes.cartSizeItem}>S</div>
+                                <div data-size="M" className={classes.cartSizeItem}>M</div>
+                                <div data-size="L" className={classes.cartSizeItem}>L</div>
+                                <div data-size="XL" className={classes.cartSizeItem}>XL</div>
                             </div>
                         </div>
-                        <div className={classes.cartSizePrice}><span data-price>5590</span>р</div>
+                        <div className={classes.cartPrice}><span data-price>5590</span>р</div>
                     </div>
 
                     <button data-button className={"button button width " + classes.catalogButton}>Купить</button>
@@ -322,13 +322,13 @@ const CatalogPage = () => {
                                 Размер
                             </div>
                             <div className={classes.cartSizeBox}>
-                                <div data-size="S" className={classes.carSizeItem}>S</div>
-                                <div data-size="M" className={classes.carSizeItem}>M</div>
-                                <div data-size="L" className={classes.carSizeItem}>L</div>
-                                <div data-size="XL" className={classes.carSizeItem}>XL</div>
+                                <div data-size="S" className={classes.cartSizeItem}>S</div>
+                                <div data-size="M" className={classes.cartSizeItem}>M</div>
+                                <div data-size="L" className={classes.cartSizeItem}>L</div>
+                                <div data-size="XL" className={classes.cartSizeItem}>XL</div>
                             </div>
                         </div>
-                        <div className={classes.cartSizePrice}><span data-price>4290</span>р</div>
+                        <div className={classes.cartPrice}><span data-price>4290</span>р</div>
                     </div>
 
                     <button data-button className={"button button width " + classes.catalogButton}>Купить</button>
@@ -347,13 +347,13 @@ const CatalogPage = () => {
                                 Размер
                             </div>
                             <div className={classes.cartSizeBox}>
-                                <div data-size="S" className={classes.carSizeItem}>S</div>
-                                <div data-size="M" className={classes.carSizeItem}>M</div>
-                                <div data-size="L" className={classes.carSizeItem}>L</div>
-                                <div data-size="XL" className={classes.carSizeItem}>XL</div>
+                                <div data-size="S" className={classes.cartSizeItem}>S</div>
+                                <div data-size="M" className={classes.cartSizeItem}>M</div>
+                                <div data-size="L" className={classes.cartSizeItem}>L</div>
+                                <div data-size="XL" className={classes.cartSizeItem}>XL</div>
                             </div>
                         </div>
-                        <div className={classes.cartSizePrice}><span data-price>4990</span>р</div>
+                        <div className={classes.cartPrice}><span data-price>4990</span>р</div>
                     </div>
 
                     <button data-button className={"button button width " + classes.catalogButton}>Купить</button>
@@ -372,13 +372,13 @@ const CatalogPage = () => {
                                 Размер
                             </div>
                             <div className={classes.cartSizeBox}>
-                                <div data-size="S" className={classes.carSizeItem}>S</div>
-                                <div data-size="M" className={classes.carSizeItem}>M</div>
-                                <div data-size="L" className={classes.carSizeItem}>L</div>
-                                <div data-size="XL" className={classes.carSizeItem}>XL</div>
+                                <div data-size="S" className={classes.cartSizeItem}>S</div>
+                                <div data-size="M" className={classes.cartSizeItem}>M</div>
+                                <div data-size="L" className={classes.cartSizeItem}>L</div>
+                                <div data-size="XL" className={classes.cartSizeItem}>XL</div>
                             </div>
                         </div>
-                        <div className={classes.cartSizePrice}><span data-price>4190</span>р</div>
+                        <div className={classes.cartPrice}><span data-price>4190</span>р</div>
                     </div>
 
                     <button data-button className={"button button width " + classes.catalogButton}>Купить</button>
@@ -397,13 +397,13 @@ const CatalogPage = () => {
                                 Размер
                             </div>
                             <div className={classes.cartSizeBox}>
-                                <div data-size="S" className={classes.carSizeItem}>S</div>
-                                <div data-size="M" className={classes.carSizeItem}>M</div>
-                                <div data-size="L" className={classes.carSizeItem}>L</div>
-                                <div data-size="XL" className={classes.carSizeItem}>XL</div>
+                                <div data-size="S" className={classes.cartSizeItem}>S</div>
+                                <div data-size="M" className={classes.cartSizeItem}>M</div>
+                                <div data-size="L" className={classes.cartSizeItem}>L</div>
+                                <div data-size="XL" className={classes.cartSizeItem}>XL</div>
                             </div>
                         </div>
-                        <div className={classes.cartSizePrice}><span data-price>4890</span>р</div>
+                        <div className={classes.cartPrice}><span data-price>4890</span>р</div>
                     </div>
 
                     <button data-button className={"button button width " + classes.catalogButton}>Купить</button>
@@ -422,13 +422,13 @@ const CatalogPage = () => {
                                 Размер
                             </div>
                             <div className={classes.cartSizeBox}>
-                                <div data-size="S" className={classes.carSizeItem}>S</div>
-                                <div data-size="M" className={classes.carSizeItem}>M</div>
-                                <div data-size="L" className={classes.carSizeItem}>L</div>
-                                <div data-size="XL" className={classes.carSizeItem}>XL</div>
+                                <div data-size="S" className={classes.cartSizeItem}>S</div>
+                                <div data-size="M" className={classes.cartSizeItem}>M</div>
+                                <div data-size="L" className={classes.cartSizeItem}>L</div>
+                                <div data-size="XL" className={classes.cartSizeItem}>XL</div>
                             </div>
                         </div>
-                        <div className={classes.cartSizePrice}><span data-price>3990</span>р</div>
+                        <div className={classes.cartPrice}><span data-price>3990</span>р</div>
                     </div>
 
                     <button data-button className={"button button width " + classes.catalogButton}>Купить</button>
@@ -447,13 +447,13 @@ const CatalogPage = () => {
                                 Размер
                             </div>
                             <div className={classes.cartSizeBox}>
-                                <div data-size="S" className={classes.carSizeItem}>S</div>
-                                <div data-size="M" className={classes.carSizeItem}>M</div>
-                                <div data-size="L" className={classes.carSizeItem}>L</div>
-                                <div data-size="XL" className={classes.carSizeItem}>XL</div>
+                                <div data-size="S" className={classes.cartSizeItem}>S</div>
+                                <div data-size="M" className={classes.cartSizeItem}>M</div>
+                                <div data-size="L" className={classes.cartSizeItem}>L</div>
+                                <div data-size="XL" className={classes.cartSizeItem}>XL</div>
                             </div>
                         </div>
-                        <div className={classes.cartSizePrice}><span data-price>3990</span>р</div>
+                        <div className={classes.cartPrice}><span data-price>3990</span>р</div>
                     </div>
 
                     <button data-button className={"button button width " + classes.catalogButton}>Купить</button>
