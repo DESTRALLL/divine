@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/divine/static/css/main.7235bc83.css",
-    "main.js": "/divine/static/js/main.a388cd9f.js",
+    "main.js": "/divine/static/js/main.3665981c.js",
     "index.html": "/divine/index.html",
     "main.7235bc83.css.map": "/divine/static/css/main.7235bc83.css.map",
-    "main.a388cd9f.js.map": "/divine/static/js/main.a388cd9f.js.map"
+    "main.3665981c.js.map": "/divine/static/js/main.3665981c.js.map"
   },
   "entrypoints": [
     "static/css/main.7235bc83.css",
-    "static/js/main.a388cd9f.js"
+    "static/js/main.3665981c.js"
   ]
 }
