@@ -1,0 +1,150 @@
+.orderContainer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-top: 1px #ffffff solid;
+    border-bottom: 1px #ffffff solid;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.order {
+    margin-bottom: 100px;
+}
+
+.orderBox {
+    max-width: 550px;
+    width: 100%;
+}
+
+.orderBox .navBasketCount .text {
+    font-size: 16px;
+}
+
+.orderBox .navBasketItem {
+    width: 100%;
+}
+
+.form .title {
+    margin-bottom: 50px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formBox {
+    max-width: 900px;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.formBox .column:first-child {
+    margin-right: 100px;
+}
+
+.formBox .column {
+    width: 100%;
+}
+
+.field:not(:last-child) {
+    margin-bottom: 40px;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+}
+
+div.field2 {
+    margin-bottom: 20px;
+}
+
+.input {
+    background-color: #3B3B3B;
+    border: 1px solid #8C8273;
+    border-radius: 20px;
+    height: 50px;
+    width: 400px;
+    padding: 0 20px;
+    color: #ffffff;
+}
+
+.inputLabel {
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.radioField {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.inputRadio {
+    display: none;
+}
+
+.inputRadio + .radioLabel .radio {
+    margin-right: 20px;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    background-color: #181A1B;
+    border: 1px #ffffff solid;
+    position: relative;
+}
+
+.inputRadio:checked + .radioLabel .radio::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: #ffffff;
+}
+
+.radioLabel {
+    font-size: 20px;
+    display: flex;
+    cursor: pointer;
+}
+
+.radioLabel span {
+    font-size: 20px;
+    margin-left: 10px;
+    color: #6C777C;
+}
+
+.formText {
+    font-size: 20px;
+    text-align: end;
+}
+
+.formText p:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.formButton {
+    width: 75%;
+    background-color: #3B3B3B;
+    border: 1px solid #8C8273;
+    padding: 20px 0;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 18px;
+    cursor: pointer;
+    transition: .15s ease-in-out;
+}
+
+.formButton:hover {
+    background-color: #dcdcdc;
+    color: #3B3B3B;
+}

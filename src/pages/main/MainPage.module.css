@@ -1,0 +1,46 @@
+.header {
+    margin-bottom: 150px;
+}
+
+.headerImage {
+    width: 100%;
+}
+
+.collection {
+    margin-bottom: 150px;
+}
+
+.collection .title {
+    margin-bottom: 50px;
+}
+
+.collectionImage {
+    margin-bottom: 30px;
+}
+
+.collectionContent {
+    text-align: center;
+}
+
+.collectionContentName {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.collectionContentPrice {
+    font-size: 16px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: 0.862fr 1fr 0.756fr;
+}
+
+.galleryColumn {
+    display: flex;
+    flex-direction: column;
+}
+
+.galleryItem {
+    width: 100%;
+}

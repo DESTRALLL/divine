@@ -1,0 +1,31 @@
+.custom {
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.customTitle {
+    margin-bottom: 75px;
+}
+
+.customBox {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.text {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.textSmall {
+    font-size: 16px;
+}
+
+.mbSmall {
+    margin-bottom: 25px;
+}
+
+.mbMedium {
+    margin-bottom: 50px;
+}
