@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/divine/static/css/main.5e41044a.css",
+    "main.js": "/divine/static/js/main.3f1a9254.js",
+    "index.html": "/divine/index.html",
+    "main.5e41044a.css.map": "/divine/static/css/main.5e41044a.css.map",
+    "main.3f1a9254.js.map": "/divine/static/js/main.3f1a9254.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5e41044a.css",
+    "static/js/main.3f1a9254.js"
+  ]
+}
