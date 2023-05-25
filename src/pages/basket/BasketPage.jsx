@@ -1,16 +1,39 @@
-import React from 'react';
+import React, {useState} from 'react';
 
 import custom from "../custom/Custom.module.css";
-import classes from "./Basket.module.css";
+import classes from "./BasketPage.module.css";
 
-const BasketPage = () => {
+const BasketPage = ({basket}) => {
+    const [delivery, setDelivery] = useState(350);
+    let cost = 0;
     return (
         <main className={"_container " + custom.custom}>
             <section className={classes.order}>
                 <h2 className={"title " + custom.customTitle}>Ваш заказ:</h2>
                 <div className={classes.orderContainer}>
                     <div id={classes.orderBox} className={classes.orderBox}>
+                        {
+                            Object.entries(basket).map(([id, product]) => {
+                                cost += product.cost;
+                                return (
+                                    <div className="nav-basket__item">
+                                        <img src={"/divine/images/products/" + product.image} className="nav-basket__image" alt="Product"/>
 
+                                        <div className="nav-basket__content">
+                                            <div className="nav-basket__header">
+                                                <div className="nav-basket__name">{product.name}</div>
+                                                <p className="nav-basket__size">Размер: <span>{product.size}</span></p>
+                                            </div>
+                                            <div className="nav-basket__count">
+                                                <div className="text">Количество:</div>
+                                                <div className="nav-basket__count-info">{product.amount}</div>
+                                            </div>
+                                            <div className="nav-basket__price">{product.cost}p</div>
+                                        </div>
+                                    </div>
+                                );
+                            })
+                        }
                     </div>
                 </div>
             </section>
@@ -48,14 +71,14 @@ const BasketPage = () => {
                         </div>
                         <div className={[classes.field, classes.field2, classes.radio].join(" ")}>
                             <div className={classes.radioField}>
-                                <input className={classes.inputRadio} id="delivery-cdek" type="radio" name="typedelivery"value="CDEK"/>
+                                <input onClick={() => setDelivery(350)} className={classes.inputRadio} id="delivery-cdek" type="radio" name="typedelivery" value="CDEK" checked/>
                                 <label className={classes.radioLabel} htmlFor="delivery-cdek">
                                     <div className={classes.radio}></div>
                                     СДЭК <span>от 3 дней</span>
                                 </label>
                             </div>
                             <div className={classes.radioField}>
-                                <input className={classes.inputRadio} id="delivery-russia" type="radio" name="typedelivery" value="RUSSIA"/>
+                                <input onClick={() => setDelivery(500)} className={classes.inputRadio} id="delivery-russia" type="radio" name="typedelivery" value="RUSSIA"/>
                                 <label className={classes.radioLabel} htmlFor="delivery-russia">
                                     <div className={classes.radio}></div>
                                     Почта России<span>от 7 дней</span>
@@ -71,9 +94,9 @@ const BasketPage = () => {
                             <input className={classes.input} id="comment" type="text"/>
                         </div>
                         <div className={classes.formText}>
-                            <p>Сумма: <span data-sum>999</span></p>
-                            <p>Сумма: <span data-delivery>999</span></p>
-                            <p>Итоговая сумма: <span data-final-sum>999 + 999</span></p>
+                            <p>Сумма: <span>{cost} рублей</span></p>
+                            <p>Сумма доставки: <span>{delivery} рублей</span></p>
+                            <p>Итоговая сумма: <span>{cost + delivery} рублей</span></p>
                         </div>
                     </div>
                 </div>

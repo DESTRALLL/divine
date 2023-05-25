@@ -1,7 +1,8 @@
 import React from 'react';
 import {Link} from "react-router-dom";
 
-const Navigation = () => {
+const Navigation = ({control, basket, add, remove, deleteItem}) => {
+    let cost = 0;
     return (
         <nav className="nav">
             <div className="_container">
@@ -22,17 +23,44 @@ const Navigation = () => {
                         <Link to="/contact" className="nav-list__link">Контакты</Link>
                     </li>
                 </ul>
-                <Link to="/basket" className="nav-basket">
-                    <button className="nav-basket__button">
+                <div className={"nav-basket " + (control["open"] === true ? "active" : "")}>
+                    <button className="nav-basket__button" onClick={() => control.setOpen(!control.open)}>
                         <img src="/divine/images/icons/basket.svg" alt="Basket"/>
                     </button>
                     <div className="nav-basket__box">
                         <div id="basket-box">
+                            {
+                                Object.entries(basket).map(([id, product]) => {
+                                    cost += product.cost;
+                                    return (
+                                        <div className="nav-basket__item">
+                                            <img src={"/divine/images/products/" + product.image} className="nav-basket__image" alt={product.name}/>
 
+                                                <div className="nav-basket__content">
+                                                    <div className="nav-basket__header">
+                                                        <div className="nav-basket__name">{product.name}</div>
+                                                        <p className="nav-basket__size">Размер: <span>{product.size}</span>
+                                                        </p>
+                                                    </div>
+                                                    <div className="nav-basket__count">
+                                                        <div className="nav-basket__count-control" onClick={() => remove(product, product.size)}>-</div>
+                                                        <div className="nav-basket__count-info">{product.amount}</div>
+                                                        <div className="nav-basket__count-control" onClick={() => add(product, product.size)}>+</div>
+                                                    </div>
+                                                    <div className="nav-basket__price">{product.cost}p</div>
+                                                </div>
+
+                                                <div className="nav-basket__close" onClick={() => deleteItem(product, product.size)}>
+                                                    x
+                                                </div>
+                                        </div>
+                                    );
+                                })
+                            }
                         </div>
-                        <a href="/basket" className="button button-width nav-basket__pay">Перейти к покупке</a>
+                        <Link to="/basket" className="button button-width nav-basket__pay">Перейти к покупке - {cost} рублей</Link>
                     </div>
-                </Link>
+                </div>
             </div>
         </nav>
     );
