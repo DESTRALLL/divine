@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/divine/static/css/main.7235bc83.css",
-    "main.js": "/divine/static/js/main.3665981c.js",
+    "main.css": "/divine/static/css/main.e1a29ea6.css",
+    "main.js": "/divine/static/js/main.a30dc76c.js",
     "index.html": "/divine/index.html",
-    "main.7235bc83.css.map": "/divine/static/css/main.7235bc83.css.map",
-    "main.3665981c.js.map": "/divine/static/js/main.3665981c.js.map"
+    "main.e1a29ea6.css.map": "/divine/static/css/main.e1a29ea6.css.map",
+    "main.a30dc76c.js.map": "/divine/static/js/main.a30dc76c.js.map"
   },
   "entrypoints": [
-    "static/css/main.7235bc83.css",
-    "static/js/main.3665981c.js"
+    "static/css/main.e1a29ea6.css",
+    "static/js/main.a30dc76c.js"
   ]
 }
